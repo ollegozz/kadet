@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.animation {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 10px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F498AD;
+}
+
+.circle:hover {  
+    animation-name: circle-to-square;    
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+}
+
+@keyframes circle-to-square {
+    from {
+        width: 50px;
+        height: 50px;
+        background-color: #F498AD;
+    }
+
+    50% {
+        width: 100px;
+        height: 200px;
+        background-color: #7F6EDB;
+        border-radius: 20%;
+    }
+
+    to {
+        width: 200px;
+        height: 200px;
+        background-color: #315ec0;
+        border-radius: 5%;
+    }
+}
