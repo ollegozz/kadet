@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    height: 600px;
+    gap: 10px;
+    padding: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.flex {
+    width: 400px;
+    height: 150px;
+    background: #4fc9a4;
+    
+    
+}
+
+/* .f1 {
+    flex: 0 1 40%;
+}
+
+.f2 {
+    flex: 0 1 60%;
+} */
